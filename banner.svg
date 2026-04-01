@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#1f6feb"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" fill="url(#bg)" rx="0"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="40" x2="900" y2="40" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="80" x2="900" y2="80" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="120" x2="900" y2="120" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="160" x2="900" y2="160" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="200" x2="900" y2="200" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="100" y1="0" x2="100" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="500" y1="0" x2="500" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="700" y1="0" x2="700" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="220" stroke="#c9d1d9" stroke-width="1"/>
+  </g>
+
+  <!-- Accent line -->
+  <rect x="60" y="165" width="60" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Name -->
+  <text x="60" y="95" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="42" font-weight="700" fill="#e6edf3" letter-spacing="-0.5">smithjan</text>
+
+  <!-- Role -->
+  <text x="60" y="148" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="400" fill="#8b949e" letter-spacing="0.5">Lead of CV Bots Department</text>
+</svg>
